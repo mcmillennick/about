@@ -10,10 +10,11 @@ The product team consists of the product managers, product designers, and techni
 - [Product management](product_management/index.md)
   - [María Craig](../../../company/team/index.md#maría-craig-she-her) - ([Code intel](../engineering/code-intelligence/index.md))
   - [Joel Kwartler](../../../company/team/index.md#joel-kwartler-he-him) - ([Web](../engineering/web/index.md))
+  - [Malo Marrec](../../../company/team/index.md#malo-marrec-he-him) - ([Campaigns](../engineering/campaigns/index.md))
 - [Product design](design/index.md)
-  - [Rob Rhyne](../../../company/team/index.md#rob-rhyne)
-  - [Alicja Suska](../../../company/team/index.md#alicja-suska-she-her)
-  - [Quinn Keast](../../../company/team/index.md#quinn-keast-he-him)
+  - [Rob Rhyne](../../../company/team/index.md#rob-rhyne) - ([Campaigns](../engineering/campaigns/index.md)) and ([Search](../engineering/search/index.md))
+  - [Alicja Suska](../../../company/team/index.md#alicja-suska-she-her) - ([Web](../engineering/web/index.md)), ([Code Insights](../engineering/code-insights/index.md)) and ([Code intel](../engineering/code-intelligence/index.md))
+  - [Quinn Keast](../../../company/team/index.md#quinn-keast-he-him) - ([Cloud](../engineering/cloud/index.md)) and ([Search (Code monitoring & contexts)](../engineering/search/index.md))
 - [Technical writing](technical_writing/index.md)
 
 ### [Roles](roles/index.md)
@@ -33,10 +34,10 @@ See [Roles](roles/index.md) for open positions and hiring targets.
 - [Personas](../marketing/personas.md)
 - The [Sourcegraph workflow](../../workflow/index.md) describes how our product fits into the developer workflow.
 - Product documents (PDs)
-  - [All PDs](https://drive.google.com/drive/folders/1Wd-Xx2wNbFtSzeJwbZqMOxdbFDUFxlyR) (Google Drive)
+  - [All PDs](https://drive.google.com/drive/folders/1UbuN9izpTj7ppJiduKI5tid8GEFuAiEx) (Google Drive)
   - [How we use PDs](product_documents.md)
 - RFCs (requests for comment)
-  - [All RFC documents](https://drive.google.com/drive/folders/1bip_pMeWePyNNdCEETRzoyMdLtntcNKR) (Google Drive)
+  - [All RFC documents](https://drive.google.com/drive/folders/1zP3FxdDlcSQGC1qvM9lHZRaHH4I9Jwwa) (Google Drive)
   - [How we use RFCs](../communication/rfcs/index.md)
 - [Product learnings](product_learning.md)
 

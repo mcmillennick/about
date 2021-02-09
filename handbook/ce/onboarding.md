@@ -7,12 +7,12 @@ Welcome to Sourcegraph! This document will guide you through customer engineerin
 ### Week 1
   - Get access to all CE [tools](https://about.sourcegraph.com/handbook/ce/onboarding#tools)
   - Read ALL existing [case studies](https://about.sourcegraph.com/case-studies)
-    - Also understand the typical use case buckets
+    - Also understand the typical [use case buckets](https://about.sourcegraph.com/customers/#onboard)
   - Read our [CE handbook pages](index.md)
     - [Support](support.md)
-  - Get a Sourcegraph instance [deployed](https://docs.sourcegraph.com/admin/install)
-    - Watch [Dave's Kubernetes Walkthrough video](https://drive.google.com/drive/folders/1Mqlndi3anVp9Eq8tYgVoyjodyoxsfik2?usp=sharing)
-    - Ask for any help needed along the way in the #dev-chat channel
+  - Get a Sourcegraph instance [deployed](https://docs.sourcegraph.com/admin/install) using the `docker-compose` flow
+    - Watch [Dave's Kubernetes Walkthrough video](https://drive.google.com/drive/folders/1JqQlrmGX8u_EuhNptj-qrzuZ4RifhTuF) for an understanding of that setup process
+    - Ask for any help needed along the way in our #ce channel
     - Update our docs where necessary
   - Watch recorded product demos (see [Resources](https://about.sourcegraph.com/handbook/ce/onboarding#resources) below)
     - Schedule a demo from the most recent CE hire before you 
@@ -27,6 +27,7 @@ Welcome to Sourcegraph! This document will guide you through customer engineerin
     - Accounts can mean prospects or existing customers
     - Know their use case, read past meeting notes, etc.
   - Signup and attend a [Product Tour](https://info.sourcegraph.com/product-tour).
+  - Add shared [CE calendar](https://calendar.google.com/calendar/u/0?cid=Y19yY3Y0ZTRqODI0OXZzNmJwbzd0bXFrZjVuZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t) to your calendar
 
 ### Week 2
   - Discovery questions 
@@ -41,7 +42,8 @@ Welcome to Sourcegraph! This document will guide you through customer engineerin
     - CE Goals
     - CE systems and processes 
     - Product introduction 
-  - Read through [Architecture overview](https://docs.sourcegraph.com/dev/background-information/architecture) to understand how our application and system         works.    
+  - Read through [Architecture overview](https://docs.sourcegraph.com/dev/background-information/architecture) to understand how our application and system         works.
+     - Also review [How the Sourcegraph CLI executes a campaign spec](https://docs.sourcegraph.com/campaigns/explanations/how_src_executes_a_campaign_spec)
      - If you have any questions, reach out to @nicksnyder, and make sure to update/incorporate what you learned from that q&a here. 
   - Go through [Product](https://about.sourcegraph.com/handbook/product/onboarding) and [Engineering]    (https://about.sourcegraph.com/handbook/engineering/onboarding) onboarding
   - Set up introductory calls with each Engineering team manager (use https://about.sourcegraph.com/company/team to help you find who that would include), Sales,       Product, and Marketing team members
@@ -49,12 +51,12 @@ Welcome to Sourcegraph! This document will guide you through customer engineerin
     - [Grafana and Prometheus](https://docs.sourcegraph.com/admin/observability/metrics)
     - [Tracing](https://docs.sourcegraph.com/admin/observability/tracing)
     - [Alerting](https://docs.sourcegraph.com/admin/observability/alerting)
-  - Give SG 101, 102 (internal certification)
+  - Give [SG 101](./training.md#sourcegraph-101-standard-demo-flow), [SG-102](./training.md#sourcegraph-102-becoming-a-sourcegraph-power-user) (internal certification)
     - [10 Step Demo Certification](https://docs.google.com/document/d/1P6nzAGfpTNysIi2FIcFY7mHX__q0qZ8955NDnWylF4I/edit?usp=sharing) 
 
 ### Weeks 3-4
   - Give a campaigns demo
-  - Give SG 101, 102 (to clients/prospects)
+  - Give [SG 101](./training.md#sourcegraph-101-standard-demo-flow), [SG-102](./training.md#sourcegraph-102-becoming-a-sourcegraph-power-user) (to clients/prospects)
   - Do 1 week frontline support
   - Run your first customer meeting (existing account)
   - Run your first customer meeting (new demo)
@@ -109,23 +111,27 @@ NOTE: Request access/licenses to these tools in [#it-tech-ops](https://sourcegra
 - [Looker](https://sourcegraph.looker.com/dashboards/94?Unique%20Server%20ID=&Site%20ID=&filter_config=%7B%22Unique%20Server%20ID%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:2%7D%5D,%22Site%20ID%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:3%7D%5D%7D)
 - [Krisp](https://krisp.ai/)
 - [ProductBoard](https://sourcegraph.productboard.com/)
-- Request access to Sourcegraph team Dropbox folder 
-  - Make sure to get access to "Customer Contracts" folder
 - Ask for a license to LinkedIn Sales Navigator tool in #sales channel
+- [Chorus.ai](https://chorus.ai/) - We use this to store call recordings—you can watch demos at your leisure here.
+- [Calendly](https://calendly.com/) - You can use Calendly to allow customers to schedule meetings with you during time blocks that you specify as available.
 
 ## Resources
 - Demo Recordings
   - [101 Demo](https://drive.google.com/file/d/1VUZ0rnZQpNgjtGDI0tMC-h-OtL0Czz8H/view?usp=sharing) (dan@)
   - [Product Info Session](https://youtu.be/iTBTri_q5MA) (jonah@)
-  - [CE-to-CE Demo walkthrough](https://drive.google.com/drive/folders/1CN_9QLCPxG8-MB06zMgsvT-RjYRnEWYZ?usp=sharing) 
+  - [CE-to-CE Demo walkthrough](https://drive.google.com/drive/folders/1rf2E2KLBztH1Qe2shq3p39afF5mLK7m1) 
   
 - Product Deep-Dives  
   - [Campaigns Overiew Deck](https://docs.google.com/presentation/d/1CN3KQf1Hfdb4RO6FgBgKuiHK4ERcOAHPgVnOcBu-MPU/edit#slide=id.g7d2aea8729_0_0)
   - [Structural Search Overview](https://zoom.us/rec/share/CJtwQ7uEp3v1pvPqdUD7GDuaYm_2g6w3zSP7GNA3aGQHZDjQ72awYXvHEnwsoio6.Bt-0DuuAZjs7UXMc?startTime=1606237440000)
+  - [Code Intelligence](https://drive.google.com/file/d/1TyCj62LLmhvamXK-CC6D8-7uGk1jmsKj/view) [[slides](https://docs.google.com/presentation/d/181oMTXRmcTqTCfOe5P__fLKwlzV1uk9wvwG6ocFgz20/edit?usp=sharing)]
   
 - [Creating and maintaining license keys](https://about.sourcegraph.com/handbook/ce/license_keys)
 
 - [Creating and storing customer meeting notes](../ce/customer-notes.md) 
+
+- [Shared CE Calendar](https://calendar.google.com/calendar/u/0?cid=Y19yY3Y0ZTRqODI0OXZzNmJwbzd0bXFrZjVuZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
+- [Open opportunities with assigned CE in Salesforce](https://sourcegraph2020.lightning.force.com/lightning/r/Report/00O3t000006jUsfEAE/view)
  
   
 ## FAQ

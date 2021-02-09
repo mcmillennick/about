@@ -68,7 +68,7 @@ All major lead generation-related events (demo requests, livestream registration
 To delete a contact requesting to be deleted from our systems:
 
 - Review our list of [data sources](https://about.sourcegraph.com/handbook/ops/bizops#data-sources) and delete the contact from each source. 
-- Take and log [screenshots](https://drive.google.com/drive/folders/1974oAceBuVXt-3a1ULI2LgBHk6gID-3V) in the [Data Protection Officer folder](https://drive.google.com/drive/folders/1974oAceBuVXt-3a1ULI2LgBHk6gID-3V) of attempt to find contact in the system. 
+- Take and log [screenshots](https://drive.google.com/drive/folders/1d0X0y2a5W6X8Vot6n26XtAKAGrdG2_a5) in the [Data Protection Officer folder](https://drive.google.com/drive/folders/1d0X0y2a5W6X8Vot6n26XtAKAGrdG2_a5) of attempt to find contact in the system. 
 - Email contact from personal Sourcegraph email with the following `We have received your [CCPA|GDPR] request to be deleted from Sourcegraph systems. Your information has been permanently wiped from all our systems (screenshot attached), and as a result you will no longer receive any communications from us. [PERSONALIZED SENTENCE based on situation]`.  
 
 ## Marketing definitions
@@ -102,33 +102,55 @@ Any inquiry that is:
 
 - A person who works for a company with > $50M in revenue
 - A person who works for company with > 250 engineers
+- A person who fills out a Contact or Demo request
 
 ## Technology stack
 
 ### Demand generation
 
-- [Salesforce](https://sourcegraph2020.my.salesforce.com/)
 - [Hubspot](https://app.hubspot.com/reports-dashboard/2762526/view/144686)
+- [Salesforce](https://sourcegraph2020.my.salesforce.com/)
 - Zoominfo
+
+### Analytics 
+
+- Google Analytics
+- Google Data Studio
+- Looker
+
+### SEM and Social advertising
+
+- Google Ads
+- LinkedIn Ads
+- Microsoft Advertising
+
+### SEO tools
+
+- Google Optimize
+- Moz Pro
+- Ubersuggest
+- CrazyEgg
+
+### Design and miscellaneous web apps
+
+- Adobe CC
+- Figma
+- Bit.ly
+- Eventable
+- Zapier
 
 ### Website infrastructure
 
+- Github
 - Gatsby
 - Netlify
-- Cookiebot
-
-### Content
-
-- [YouTube](https://www.youtube.com/channel/UCOy2N25-AHqE43XupT9mwZQ)
-- [Vimeo](https://vimeo.com/sourcegraph)
-- Google Cloud Storage
-
-### SEM and SEO tools
-
-- Google Ads
-- Google Analytics
-- Google Optimize
+- Visual Studio Code
 - Google Search Console
 - Google Tag Manager
-- Moz Pro
-- Ubersuggest
+- Cookiebot
+
+### Media/content storage
+
+- Google Cloud Storage
+- [YouTube](https://www.youtube.com/channel/UCOy2N25-AHqE43XupT9mwZQ)
+- [Vimeo](https://vimeo.com/sourcegraph)

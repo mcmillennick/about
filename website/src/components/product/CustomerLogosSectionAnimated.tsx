@@ -59,6 +59,10 @@ const ITEMS: {
             // },
         },
         {
+            name: 'Dropbox',
+            url: '/external-logos/dropbox-logo.svg',
+        },
+        {
             name: 'Prezi',
             url: '/external-logos/prezi-logo.svg',
         },
@@ -115,6 +119,10 @@ const ITEMS: {
         {
             name: 'Cloudflare',
             url: '/external-logos/cloudflare-color-logo.svg',
+        },
+        {
+            name: 'Factset',
+            url: '/external-logos/factset-logo.svg',
         },
         {
             name: 'Button',

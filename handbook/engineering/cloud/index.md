@@ -34,7 +34,7 @@ See [goals](goals.md)
 
 ## On-call
 
-- [Alerts owned by this team](https://sourcegraph.com/search?q=repo:%5Egithub%5C.com/sourcegraph/sourcegraph%24+ObservableOwnerCloud&patternType=literal)
+- [Alerts owned by this team](https://sourcegraph.com/search?q=repo:%5Egithub%5C.com/sourcegraph/sourcegraph%24+monitoring.ObservableOwnerCloud&patternType=literal)
 - [OpsGenie rotation](https://sourcegraph.app.opsgenie.com/teams/dashboard/01b8adfc-9b85-462b-a841-945791c17e9e/main)
 
 ## Processes
@@ -115,21 +115,19 @@ By default, members of the team will provide a brief update about the goals they
 
 - We're hiring a [Product Manager](../../product/roles/product_manager.md) for this role. [Christina Forney](../../../company/team/index.md#christina-forney-she-her) is involved in the meantime.
 - [Quinn Keast](../../../company/team/index.md#quinn-keast-he-him) ([Product Designer](../../product/roles/product_designer.md))
-- [Tomás Senart](../../../company/team/index.md#tomás-senart) ([Engineering Manager](../roles.md#engineering-manager))
-  - [Joe Chen](../../../company/team/index.md#joe-chen)
-  - [Ryan Slade](../../../company/team/index.md#ryan-slade-he-him)
-  - [Asdine El Hrychy](../../../company/team/index.md#asdine-el-hrychy)
-  - [Alan Harris](../../../company/team/index.md#alan-harris-he-him)
-  - [Artem Ruts](../../../company/team/index.md#artem-ruts-he-him)
-  - [Alex Russell-Saw](../../../company/team/index.md#alex-russell-saw-he-him)
-  - I. G. estimated start date is February 1st 2021
-
-## Growth plan
-
-_Updated 2020-12-07_
-
-We are looking to grow this team to 8 engineers by hiring an additional [Frontend Engineer](../hiring/software-engineer-frontend.md).
-
-[Tomás will be transitioning back to an IC role](https://docs.google.com/document/d/1vsX7Xq8GZ1P9lK8JfJHq0-E8_Dl4awCLpu0g1BZMR2o/edit), as soon as we identify a [new manager for this team](../hiring/engineering-manager-cloud.md).
-
-When the Cloud effort has achieved its goals then this team will turn into a backend platform team and frontend engineers will join the [web platform team](../web/index.md#web-platform).
+- Core application {#core-application-eng}
+    - [FQ1 Engineering Manager](https://jobs.lever.co/sourcegraph/95ad534f-8724-45dc-9b50-291c5926a7dc), Tomás acting manager until then.
+        - [Joe Chen](../../../company/team/index.md#joe-chen)
+        - [Ryan Slade](../../../company/team/index.md#ryan-slade-he-him)
+        - [Alan Harris](../../../company/team/index.md#alan-harris-he-him)
+        - [Artem Ruts](../../../company/team/index.md#artem-ruts-he-him)
+        - [Alex Russell-Saw](../../../company/team/index.md#alex-russell-saw-he-him)
+        - I. G. estimated start date is February 1st 2021
+        - FQ1 [frontend engineer](https://jobs.lever.co/sourcegraph/b2f9a8b0-cc06-4629-81a0-0f2fa64271c7)
+- Backend platform {#backend-platform-eng}
+    - FQ2 [Engineering Manager](../roles.md#engineering-manager), Tomás acting manager until then.
+        - [Tomás Senart](../../../company/team/index.md#tomás-senart)
+        - [Asdine El Hrychy](../../../company/team/index.md#asdine-el-hrychy)
+        - FQ2 backend engineer
+        - FQ3 backend engineer
+        - FQ4 backend engineer

@@ -31,7 +31,7 @@ Questions:
 
 - What career growth have you achieved in your most recent role?
   - What did you get better at?
-  - What what did you struggle with?
+  - What did you struggle with?
 - What have you done in the last year to become a better engineering manager?
 - Can you describe a recent example of how you have helped an engineer grow in their career?
 
@@ -62,5 +62,3 @@ Questions:
   - Would you call the outcome a success?
   - What did you learn from the situation? Is there anything you wish you had done differently?
 - How do you attract, hire, and retain excellent engineers?
-
-Go back to the [careers page](../../../company/careers.md) for all open positions.

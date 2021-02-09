@@ -7,6 +7,7 @@ The Sales team represents us and our values to customers, bringing back dollars 
 - [Common questions from prospective customers](common_customer_questions.md)
 - [Sales team onboarding](onboarding/index.md)
 - [SDR Team](sdrteam.md)
+- [Sales strategy & ops team](sales-ops/index.md)
 - [Sales interview process](interviews/index.md)
 - [Recording lead and customer emails, calls, and notes](records.md)
 - [Using Salesforce](salesforce.md)
@@ -23,7 +24,21 @@ The Sales team represents us and our values to customers, bringing back dollars 
 
 TODO
 
-## Roles
+## Members
+
+- [Gregg Stone](../../company/team/index.md#gregg-stone) (VP of Sales)
+- [Josh Bollin](../../company/team/index.md#josh-bollin) (RVP of East)
+  - [Kai Passo](../../company/team/index.md#kai-passo-he-him)
+  - [Bill Kolman](../../company/team/index.md#bill-kolman)
+  - [Eli Rothschild](../../company/team/index.md#eli-rothschild-he-him)
+  - [Scott Cambell](../../company/team/index.md#scott-campbell-he-him)
+  - [Hannah Freilich](../../company/team/index.md#hannah-freilich)
+  - Dan Braun
+- [Greg Bastis](../../company/team/index.md#greg-bastis-he-him) (RVP of West)
+  - [Owen Brennan](../../company/team/index.md#owen-brennan-he-him)
+  - [Chris Surdi](../../company/team/index.md#chris-surdi)
+
+### Roles
 
 See [roles](./roles/index.md) page.
 
@@ -39,31 +54,7 @@ See [roles](./roles/index.md) page.
 
 ## Definitions
 
-### ARR
-
-Annual Recurring Revenue (ARR) is the dollar value of contracted recurring revenue in a (normalized) one-year period.
-
-### IARR
-
-Incremental [ARR](#arr) (IARR) is the change in ARR from one period to another.
-
-### New IARR
-
-New [IARR](#iarr) is IARR from *new customers* (i.e., organizations that were **not** existing customers at the beginning of the period). See also [expansion IARR](#expansion-iarr).
-
-### Expansion IARR
-
-Expansion [IARR](#iarr) is IARR from *existing customers* (i.e., organizations that were already customers at the beginning of the period).
-
-If within a single period a new customer signs a contract which then grows in ARR before the end of the period, the total ending ARR is all considered [new IARR](#new-iarr), not expansion IARR. For example, if Acme Corp signs a $100k contract on February 3 and then the contract expands to $200k on March 5, all $200k would be considered new IARR for Q1.
-
-### Booking
-
-A booking is when a customer commits to pay us money. This includes when:
-
-- A new customer just started paying self-service or signed a contract
-- An existing customer (depending on their contract) takes an action that increases the amount of revenue we will earn from them (such as growing usage or using more premium features)
-- An existing customer renews (including when the renewal is for the same ARR as the previous period)
+See [finance definitions](../ops/finance/index.md#definitions) for definitions of financial terms such as [ARR](../ops/finance/index.md#ARR), [IARR](../ops/finance/index.md#IARR), [bookings](../ops/finance/index.md#booking) and more.
 
 ### Customer
 

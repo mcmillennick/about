@@ -20,38 +20,43 @@ See [Goals](goals.md)
 
 ## Details
 
+- [Product & personas](product.md)
 - [Ownership areas](ownership_areas.md)
 - [Recurring processes](recurring_processes.md)
 - [Internal infrastructure](internal_infrastructure.md)
-- [Product & personas](product.md)
 - [Tools](tools/index.md)
-- Tutorials
-  - [Observability developer guide](../observability/index.md)
-  - [Managed instances](managed/index.md)
-  - [Collecting and inspecting metrics dumps](metrics_dumps.md)
-  - [How to set up a separate website maintained by Sourcegraph](separate_website.md)
-  - [How to simulate k8s admin security restrictions](k8s_admin_custom_policy.md)
-  - [How to test the Gitlab native integration locally](gitlab_native_local.md)
-  - [How to make updates to global settings and configuration on sourcegraph.com](update_sourcegraph_website.md)
-  - [Create GCP commitments](gcp.md#committed-use-discounts)
-  - [Update various service tokens for sourcegraph.com](tokens.md)
-- FAQ
-  - [Why is there not a "stable" or "latest" Docker image tag?](faq.md#why-is-there-not-a-stable-or-latest-docker-image-tag)
-  - [Rollbacks](rollbacks.md)
+- [Tech stack](tech_stack.md)
+
+### Resources
+
+- [Observability at Sourcegraph](../observability/index.md)
+- [Observability developer guide](https://docs.sourcegraph.com/dev/background-information/observability)
+- [Managed instances](managed/index.md)
+- [Collecting and inspecting metrics dumps](metrics_dumps.md)
+- [How to set up a separate website maintained by Sourcegraph](separate_website.md)
+- [How to simulate k8s admin security restrictions](k8s_admin_custom_policy.md)
+- [How to test the Gitlab native integration locally](gitlab_native_local.md)
+- [How to make updates to global settings and configuration on sourcegraph.com](update_sourcegraph_website.md)
+- [Create GCP commitments](gcp.md#committed-use-discounts)
+- [Update various service tokens for sourcegraph.com](tokens.md)
+- [Rollbacks](rollbacks.md)
+
+### [FAQ](faq.md)
+
+- [Why is there not a "stable" or "latest" Docker image tag?](faq.md#why-is-there-not-a-stable-or-latest-docker-image-tag)
 
 ## Members
 
-- We're hiring a [Product Manager](../../product/roles/product_manager.md) for this role. The engineering team is owning PM responsibilities in the meantime.
-- [Gonzalo Peci](../../../company/team/index.md#gonzalo-peci-hehim) ([Engineering Manager](../roles.md#engineering-manager))
+- We're hiring a [Product Manager](https://jobs.lever.co/sourcegraph/254299f5-f91b-43e2-aa1a-3732963dd296) for this role. The engineering team is owning PM responsibilities in the meantime.
+- [Gonzalo Peci](../../../company/team/index.md#gonzalo-peci-hehim) ([Engineering Manager](../roles.md#engineering-manager)) {#distribution-eng}
   - [Geoffrey Gilmore](../../../company/team/index.md#geoffrey-gilmore)
   - [Uwe Hoffmann](../../../company/team/index.md#uwe-hoffmann)
   - [Dave Try](../../../company/team/index.md#dave-try)
-  - [Robert Lin](../../../company/team/index.md#robert-lin) (2020 intern)
+  - [Robert Lin](../../../company/team/index.md#robert-lin)
   - [Dax McDonald](../../../company/team/index.md#dax-mcdonald-he-him)
-
-Other:
-
-- [Stephen Gutekanst](../../../company/team/index.md#stephen-gutekanst) is in an experimental role acting as [an internal contributor, focused on high-value low-cost wins across the board.](https://docs.google.com/document/d/18c9dVjw5MuvOMHahCFQQPAVsp1vRdFDDI_7hmo5MWyQ/edit) His work is not isolated from the Distribution team, it will tracked on [a project board](https://github.com/orgs/sourcegraph/projects/106), with regular status updates to his manager and any other relevant teams. He will work closely with (and sometimes embedded in) other teams, and get alignment with the product team (and any other team) on his work. This is an experiment between 2020-11-23 and 2021-01-23 and we will evaluate the outcome around that time. [Gonzalo Peci](../../../company/team/index.md#gonzalo-peci-hehim) will continue to be his manager during this experiment.
+  - FQ1 [distribution engineer](https://jobs.lever.co/sourcegraph/ddef3b91-ce19-4b22-8db4-65e159d7ff2b)
+  - FQ1 [distribution engineer](https://jobs.lever.co/sourcegraph/ddef3b91-ce19-4b22-8db4-65e159d7ff2b)
+  - [Stephen Gutekanst](../../../company/team/index.md#stephen-gutekanst) reports to Gonzalo, but is in an experimental role acting as [an internal contributor, focused on high-value low-cost wins across the board.](https://docs.google.com/document/d/18c9dVjw5MuvOMHahCFQQPAVsp1vRdFDDI_7hmo5MWyQ/edit) His work is not isolated from the Distribution team, it will tracked on [a project board](https://github.com/orgs/sourcegraph/projects/106), with regular status updates to his manager and any other relevant teams. He will work closely with (and sometimes embedded in) other teams, and get alignment with the product team (and any other team) on his work. We will revist this experiment March 2021.
 
 ## On-call rotation
 
@@ -61,7 +66,7 @@ We have an OpsGenie rotation to respond to [incidents](../incidents/index.md) (e
 
 **Incidents on-call**
 
-- [Alerts owned by this team](https://sourcegraph.com/search?q=repo:%5Egithub.com/sourcegraph/sourcegraph%24+file:monitoring/.*+%7B:%5B_%5D%2C+Owner:+ObservableOwnerDistribution%2C+:%5B_%5D%7D+OR+%28:%5B_%5D%2C+ObservableOwnerDistribution%29+count:1000&patternType=structural)
+- [Alerts owned by this team](https://sourcegraph.com/search?q=repo:%5Egithub.com/sourcegraph/sourcegraph%24+file:monitoring/.*+%7B:%5B_%5D%2C+Owner:+monitoring.ObservableOwnerDistribution%2C+:%5B_%5D%7D+OR+%28:%5B_%5D%2C+monitoring.ObservableOwnerDistribution%29+count:1000&patternType=structural)
 - [OpsGenie rotation](https://sourcegraph.app.opsgenie.com/teams/dashboard/aa59eba4-9b34-45ea-9515-c4dab4cbdac9/main)
 
 ## Support rotation
